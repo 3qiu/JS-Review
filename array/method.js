@@ -46,6 +46,6 @@ function filterFunction(n){
 filterFunction([1,2,3,4,5,6])
 
 function EvensFilter2(arr){
-    let result = arr.filter(n);
+    let result = arr.filter(filterFunction);
 }
 console.log(result)
